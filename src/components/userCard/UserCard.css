@@ -1,0 +1,17 @@
+.UserCard {
+  font-family: 'Comic Sans MS', sans-serif;
+  border: 1px solid black;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.4);
+  margin-bottom: 15px;
+}
+
+.UserCard h2 {
+	color: red;
+}
+
+.UserCard img {
+	max-width: 200px;
+}
