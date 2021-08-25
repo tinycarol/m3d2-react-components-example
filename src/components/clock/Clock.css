@@ -1,10 +1,10 @@
 .Clock {
-	border: 1px solid black;
-	border-radius: 5px;
-	width: fit-content;
-	padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 20px;
 }
 
 .Clock img {
-	width: 200px;
+  width: 200px;
 }

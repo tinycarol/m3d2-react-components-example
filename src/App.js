@@ -7,6 +7,7 @@ import pipaAvatar from "./assets/pipa.png";
 import pipAvatar from "./assets/pipo.svg";
 import HorizontalList from "./components/horizontalList/HorizontalList";
 
+// Using function component
 /* export default function App() {
   return (
     <div className="App">
@@ -46,6 +47,7 @@ const pip = {
   avatar: pipAvatar,
 };
 
+// Using class component
 export default class App extends React.Component {
   render() {
     return (
@@ -60,7 +62,7 @@ export default class App extends React.Component {
           <UserCard user={pip} />
           <UserCard user={pip} />
         </HorizontalList>
-        
+
         <HorizontalList>
           <Clock showMinutes showSeconds />
           <Clock showMinutes />
